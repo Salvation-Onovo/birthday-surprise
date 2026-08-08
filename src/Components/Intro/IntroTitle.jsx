@@ -15,7 +15,10 @@ const IntroTitle = () => {
         duration: 1,
       }}
       className="
-      text-6xl
+      lg:text-6xl
+      md:text-5xl
+      text-3xl
+      flex-wrap
       font-serif
       text-center
       text-pink-200

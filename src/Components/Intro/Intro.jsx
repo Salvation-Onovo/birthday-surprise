@@ -13,6 +13,7 @@ const Intro = () => {
       flex
       justify-center
       items-center
+      p-4
       "
       >
         <div className="text-center">
