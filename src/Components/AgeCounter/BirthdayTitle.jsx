@@ -12,7 +12,9 @@ const BirthdayTitle = () => {
         y: 0,
       }}
       className="
-      text-6xl
+      lg:text-6xl
+      md:text-5xl
+      text-5xl
       font-serif
       text-pink-200
       text-center
