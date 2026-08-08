@@ -1,4 +1,4 @@
-import Background from "../components/Background/Background";
+import Background from "../Components/Background/Background";
 import Loader from "../Components/Loader/Loader";
 import { useBirthday } from "../Components/context/BirthdayContext";
 import Passkey from "../Components/Passkey/Passkey";
@@ -19,7 +19,7 @@ const Home = () => {
       <AnimatePresence mode="wait">
         {screen === "loader" && <Loader />}
         {screen === "passkey" && <Passkey />}
-        <MusicPlayer/>
+        {screen === "music" && <MusicPlayer />}
         {screen === "intro" && <Intro />}
         {screen === "age" && <AgeCounter />}
         {screen === "gallery" && <Gallery />}
