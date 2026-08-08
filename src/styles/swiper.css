@@ -1,0 +1,96 @@
+.gallery-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: visible;
+}
+
+.gallerySwiper {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  overflow: visible;
+}
+
+.gallerySlide {
+  width: 320px !important;
+
+  transition:
+    transform 0.7s ease,
+    opacity 0.7s ease,
+    filter 0.7s ease;
+}
+
+/* Side cards */
+
+.gallerySwiper .swiper-slide {
+  opacity: 0.45;
+  filter: blur(1px);
+}
+
+/* Active card */
+
+.gallerySwiper .swiper-slide-active {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* Previous / next */
+
+.gallerySwiper .swiper-slide-prev,
+.gallerySwiper .swiper-slide-next {
+  opacity: 0.65;
+}
+
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+
+@media (max-width: 639px) {
+
+  .gallery-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .gallerySwiper {
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 55px;
+    overflow: visible;
+  }
+
+  .gallerySlide {
+    width: 270px !important;
+  }
+
+  .gallerySwiper .swiper-slide {
+    opacity: 0.45;
+    filter: blur(1.5px);
+  }
+
+  .gallerySwiper .swiper-slide-active {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+}
+
+
+/* ============================= */
+/* VERY SMALL PHONES */
+/* ============================= */
+
+@media (max-width: 380px) {
+
+  .gallery-container {
+    padding: 0 6px;
+  }
+
+  .gallerySlide {
+    width: 250px !important;
+  }
+
+}   
