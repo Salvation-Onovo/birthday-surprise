@@ -12,7 +12,7 @@ const MusicPlayer = () => {
   return (
     <audio
       ref={audio}
-      src="/audio/Birthday.mp3"
+      src="/audio/Birthday_Girl_(mp3.pm).mp3"
       loop
     />
   );
