@@ -5,7 +5,7 @@ import FloatingHearts from "./FloatingHearts";
 import FallingFlowers from "./FallingFlowers";
 import ConfettiBurst from "./ConfettiBurst";
 import ReplayButton from "./ReplayButton";
-// import MusicPlayer from "./MusicPlayer";
+import MusicPlayer from "./MusicPlayer";
 
 const Celebration = () => {
   return (
@@ -20,7 +20,7 @@ const Celebration = () => {
         items-center
         "
       >
-        {/* <MusicPlayer /> */}
+        <MusicPlayer />
 
         <ConfettiBurst />
 

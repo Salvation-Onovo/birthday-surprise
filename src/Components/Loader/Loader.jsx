@@ -41,7 +41,9 @@ const Loader = () => {
 
         <h2
           className="
-          text-3xl
+          lg:text-3xl
+          md:text-2xl
+          text-xl
           mt-8
           text-pink-200
           tracking-widest

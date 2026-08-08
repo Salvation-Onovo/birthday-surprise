@@ -19,7 +19,7 @@ const Home = () => {
       <AnimatePresence mode="wait">
         {screen === "loader" && <Loader />}
         {screen === "passkey" && <Passkey />}
-        {screen === "music" && <MusicPlayer />}
+        <MusicPlayer />
         {screen === "intro" && <Intro />}
         {screen === "age" && <AgeCounter />}
         {screen === "gallery" && <Gallery />}
